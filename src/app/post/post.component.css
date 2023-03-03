@@ -1,0 +1,7 @@
+.post {
+  border: 1px dashed grey;
+  width: 450px;
+  height: auto;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
