@@ -1,11 +1,15 @@
-.red {
-  background: red;
-  font-weight: bold;
-  color: #fff
-}
+/*.red {*/
+/*  background: red;*/
+/*  font-weight: bold;*/
+/*  color: #fff*/
+/*}*/
 
-.blue {
-  background: blue;
+/*.blue {*/
+/*  background: blue;*/
+/*  font-size: 1.5rem;*/
+/*  color: #fff*/
+/*}*/
+
+p {
   font-size: 1.5rem;
-  color: #fff
 }
