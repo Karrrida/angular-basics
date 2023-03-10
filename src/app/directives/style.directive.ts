@@ -15,6 +15,7 @@ export class StyleDirective {
 
   @HostListener('mouseenter', ['$event.target']) onEnter() {
     this.renderer.setStyle(this.el.nativeElement, 'color', 'green')
+    this.renderer.setStyle(this.el.nativeElement, 'border', '2px solid red')
   }
   @HostListener('mouseleave', ['$event.target']) onLeave() {
     this.renderer.setStyle(this.el.nativeElement, 'color', null)
