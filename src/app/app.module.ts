@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
 import {StyleDirective} from "./directives/style.directive";
+import { IfnotDirective } from './directives/ifnot.directive';
 //import { PostFormComponent } from './post-form/post-form.component';
 //import { PostComponent } from './post/post.component';
 
@@ -11,6 +12,7 @@ import {StyleDirective} from "./directives/style.directive";
   declarations: [
     AppComponent,
     StyleDirective,
+    IfnotDirective,
    // PostFormComponent,
     //PostComponent,
   ],
